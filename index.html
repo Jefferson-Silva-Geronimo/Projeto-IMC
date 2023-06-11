@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto IMC</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header>
+        <div id="simbolo">
+            <div id="circulo-maior">
+                <div id="circulo-menor"></div>
+            </div>
+        </div>
+    </header>
+    <section id="imc">
+        <article>
+            <div id="info">
+                <h1 id="titulo-info">Body Mass Index Calculator.</h1>
+                <p id="text-info">Better understand your weight in relation to your height using our body mass index (BM) calculator. While BMI is not the sole determinant of a healthy weight, it offers a valuable starting point to evaluate your overall health and well-being.</p>
+            </div>
+            <div id="calc">
+                <div id="area">
+                    <p id="titulo-area">Enter your Details Below</p>
+                    <div id="entrada-dados">
+                        <label for="txtheight">
+                            <p class="text-label">
+                                height (m)
+                            </p>
+                            <input type="number" name="txtheight" id="txtheight" placeholder="height in meters" autofocus>
+                        </label>
+
+                        <label for="txtweight">
+                            <p class="text-label">
+                                Weight (Kg)
+                            </p>
+                            <input type="number" name="txtweight" id="txtweight" placeholder="weight in kilograms">
+                        </label>
+                    </div>
+                    <div id="calcular">
+                        <input type="button" value="Calcular" id="botao-calc" onclick="calcular()">
+                    </div>
+                    <div id="faixa">
+                        <h1 id="titulo-faixa">
+                            Welcome!
+                        </h1>
+                        <p id="imc-faixa">Enter your height and weight and you'll see your BMI result here.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section id="resul">
+        <div id="img">
+            <img src="./assets/img/grafico-320px.jpg" alt="imagem de grafico" id="item-img">
+        </div>
+        <div id="resul-imc">
+            <h1 id="title-resul-imc">What your BMI result means</h1>
+            <p id="txt-resul-imc">
+                A BMI range of 18.5 to 24.9 is considered a 'healthy weight.' Maintaining a healthy weight may lower your chances of experiencing health issues later on, such as obesity and type 2 diabetes. Aim for a nutritious diet with reduced fat and sugar content, incorporating ample fruits and vegetables. Additionally, strive for regular physical activity, ideally about 30 minutes daily for five days a week.
+            </p>
+        </div>
+    </section>
+    
+    <script src="./assets/script.js"></script>
+</body>
+</html>
