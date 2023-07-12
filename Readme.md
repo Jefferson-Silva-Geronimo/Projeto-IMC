@@ -6,3 +6,5 @@
      * HTML
      * CSS
      * JavaScript
+
+    Para vizualizar o projeto funcionando, clique no link: https://jefferson-silva-geronimo.github.io/Projeto-IMC/
